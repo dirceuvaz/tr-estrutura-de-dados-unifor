@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+    <cliente>
+        <cpf>12345678900</cpf>
+        <nome>João da Silva</nome>
+        <idade>28</idade>
+    </cliente>
+    <cliente>
+        <cpf>98765432100</cpf>
+        <nome>Maria Souza</nome>
+        <idade>35</idade>
+    </cliente>
+    <cliente>
+        <cpf>11122233344</cpf>
+        <nome>Carlos Oliveira</nome>
+        <idade>42</idade>
+    </cliente>
+    <cliente>
+        <cpf>55566677788</cpf>
+        <nome>Laura Santos</nome>
+        <idade>29</idade>
+    </cliente>
+    <cliente>
+        <cpf>99988877766</cpf>
+        <nome>Pedro Costa</nome>
+        <idade>36</idade>
+    </cliente>
+    <cliente>
+        <cpf>33322211100</cpf>
+        <nome>Ana Pereira</nome>
+        <idade>25</idade>
+    </cliente>
+    <cliente>
+        <cpf>77788899900</cpf>
+        <nome>Fernanda Oliveira</nome>
+        <idade>31</idade>
+    </cliente>
+    <cliente>
+        <cpf>44455566677</cpf>
+        <nome>Rafaela Silva</nome>
+        <idade>27</idade>
+    </cliente>
+</clientes>
+
+
+
+

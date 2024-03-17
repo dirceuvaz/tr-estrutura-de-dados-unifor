@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Busca de Cliente por CPF</title>
+    <!-- Adicionando Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos adicionais */
+        body {
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+
+        .form-bg {
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="mt-5">Sistema de Caixa de Super Mercado</h1>
+        <div class="form-bg mt-4">
+            <h2>Buscar Cliente por CPF</h2>
+            <form action="buscarCliente" method="GET">
+                <div class="form-group">
+                    <label for="cpf">CPF do Cliente:</label>
+                    <input type="text" class="form-control" id="cpf" name="cpf" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Buscar CPF</button>
+                <hr>
+        		<h6 class="text-center">Desenvolvido por Grupo 40 - ADS - Unifor</h6>
+            </form>
+        </div>
+        
+       
+
+    <!-- Adicionando Bootstrap JS (opcional, para funcionalidades avançadas) -->
+    <!-- Certifique-se de ter o jQuery e o Popper.js carregados antes do Bootstrap.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
